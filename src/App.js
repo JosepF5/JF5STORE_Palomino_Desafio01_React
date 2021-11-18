@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React :D
+          Learn React en JF5 Store
         </a>
       </header>
     </div>
