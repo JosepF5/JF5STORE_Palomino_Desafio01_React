@@ -1,8 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
+import NavBarra from './components/NavBarra';
+import './styles/styles.css';
 function App() {
   return (
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,6 +18,10 @@ function App() {
           Learn React en JF5 Store
         </a>
       </header>
+    </div>
+    */
+    <div className="App">
+      <NavBarra/>
     </div>
   );
 }
