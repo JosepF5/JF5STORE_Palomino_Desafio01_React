@@ -21,4 +21,4 @@ function ItemDetail({item}) {
     )
 }
 
-export default ItemDetail2
+export default ItemDetail
