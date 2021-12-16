@@ -1,0 +1,20 @@
+.botonDetalle {
+    background-color: #DC3545;
+    border-radius: 10px;
+  }
+  
+  .botonLink {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .botonLink:hover {
+    background-color: white;
+    color: #DC3545;
+  }
+  
+  .imgSize {
+    width: 13rem;
+    height: 15rem;
+    margin: auto;
+  }
