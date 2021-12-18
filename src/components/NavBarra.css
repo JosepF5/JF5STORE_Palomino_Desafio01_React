@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #DC3545;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .dropdown-menu {
+    background-color: #DC3545;
+  }
+  
+  .navLink {
+    padding: 0 1rem;
+    text-decoration: none;
+    color: black;
+  }
+  .navLink:hover {
+    color: white;
+  }
+  
+  .active {
+    font-weight: bold;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+
+  .active:hover {
+    font-weight: bold;
+    background-color: rgb(228, 167, 167);
+    color:white;
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+  

@@ -18,7 +18,7 @@ return (
               />
              <Route 
                 exact
-                path="/categoria/:idPrecio" 
+                path="/nombre/:idPrecio" 
                 element={ <ItemListContainer greeting='Bienvenido a JF5 Store!'/>} 
               />
               <Route 

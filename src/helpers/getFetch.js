@@ -21,32 +21,32 @@ const productos = [
         img: teclado
     },
     {
-        "nombre": "Telefono",
-        "precioG": 400,
-        "stockG":14,
-        "id":3,
-        "img": telefono
+        nombre: "Telefono",
+        precioG: 400,
+        stockG:14,
+        id:3,
+        img: telefono
     },
     {
-        "nombre": "PS4",
-        "precioG": 999,
-        "stockG":78,
-        "id":4,
-        "img": ps4
+        nombre: "PS4",
+        precioG: 999,
+        stockG:78,
+        id:4,
+        img: ps4
     },
     {
-        "nombre": "XBOX",
-        "precioG": 1250,
-        "stockG":45,
-        "id":5,
-        "img": xbox
+        nombre: "XBOX",
+        precioG: 1250,
+        stockG:45,
+        id:5,
+        img: xbox
     },
     {
-        "nombre": "Nintendo Switch",
-        "precioG": 486.50,
-        "stockG":69,
-        "id":6,
-        "img": nintendo
+        nombre: "Nintendo Switch",
+        precioG: 486.50,
+        stockG:69,
+        id:6,
+        img: nintendo
     }
 ] 
  const getFetch = new Promise((resolve)=>{

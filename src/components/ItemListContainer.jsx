@@ -13,7 +13,7 @@ function ItemListContainer( {greeting} ) {
     useEffect(()=>{
         if (idPrecio) {
             getFetch
-            .then(resp =>setProductos(resp.filter(prod=>prod.precioG === idPrecio)))
+            .then(resp =>setProductos(resp.filter(prod=>prod.nombre === idPrecio)))
             .catch(err =>console.log(err))
             .finally(()=>setLoading(false))
         }else {
