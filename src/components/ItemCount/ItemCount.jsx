@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './ItemCount.css';
 import { Button } from 'react-bootstrap';
-function ItemCount({stock, initial}) {
+function ItemCount({stock, onAdd,initial}) {
 
 
     const [value, setValue] = useState(initial)
@@ -14,12 +14,15 @@ function ItemCount({stock, initial}) {
         value > initial ? setValue(estadoPrevio => estadoPrevio - valor) : alert('compra minima posible')
     }
 
-
+    function handleClik() {
+        onAdd(value)
+    }
+    /*
     const onAdd = () => {
         const message = `Has comprado ${value} producto`;
         value === 1 ? alert(message) : alert(`${message}s`);
         setValue(initial)
-      };
+      };*/
 
     return (
         <div className="row">
@@ -29,7 +32,8 @@ function ItemCount({stock, initial}) {
         <Button variant="outline-primary" className="button-count m-2" onClick={()=>handleResta(1)}>-</Button>
         </div>
         <div className="col-sm-6 m-2">
-        <Button variant="outline-success" className="button-count" onClick={onAdd}>Agregar al carrito</Button>
+        <Button disabled={value===0} variant="outline-success" className="button-count" onClick={handleClik}>Agregar al carrito</Button>
+        
         </div>
         </div>
     )
